@@ -6,3 +6,11 @@
 *.iml
 *.iws
 *.ipr
+
+#macOS
+.DS_Store
+# Windows
+Thumbs.db
+# Logs
+logs/
+*.log
