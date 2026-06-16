@@ -1,0 +1,14 @@
+body {
+    margin: 10px;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle at top left, yellow, dodgerblue);
+    border: 10px solid royalblue;
+    border-top: 20px solid royalblue;
+    border-width: 10px /*20px 10px 20px*/; /*tebl*/
+    border-style: double;
+    border-radius: 100%;
+}

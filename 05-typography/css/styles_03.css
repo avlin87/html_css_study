@@ -1,0 +1,33 @@
+@font-face {
+    font-family: 'opensans';
+    src: url('fons/open-sans/opensans-regular-webfont.woff2') format('woff2'),
+         url('fons/open-sans/opensans-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'opensans';
+    src: url('fons/open-sans/opensans-bold-webfont.woff2') format('woff2'),
+         url('fons/open-sans/opensans-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: bold;
+    font-display: optional;
+    /* font-display: optional; - font will be loaded in cach and will switch 
+    if fond was downloaded in short period of time. 
+    In case of long download - default font will be used on first page load.*/
+    /* font-display: swap; - font will use default font untill custom font is loaded*/
+    /* font-display: fallback; - font will use default font untill custom font is loaded*/
+}
+
+body {
+    margin: 10px;
+    font-family: 'opensans', Georgia, 'Times New Roman', Times, serif
+}
+
+p {
+    font-weight: bold;
+    font-style: italic;
+    font-size: 1rem;
+    color: #333;
+}

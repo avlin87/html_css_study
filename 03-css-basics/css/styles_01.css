@@ -1,0 +1,17 @@
+body {
+    margin: 10px;
+}
+
+p {
+    color: orange;
+}
+
+a:visited,
+a:link {
+    color: dodgerblue;
+}
+
+a:hover, 
+a:focus {
+    color: deeppink;
+}

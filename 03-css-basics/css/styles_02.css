@@ -1,0 +1,27 @@
+body {
+    margin: 10px;
+}
+
+.product {
+    color:blueviolet;
+}
+
+a[target='_blank']{
+    color: aquamarine;
+}
+
+a[href*='google.com'] {
+    color: orange;
+}
+
+a[href^='https'] {
+    color: rgb(255, 0, 34);
+}
+
+a[href$='.com']{
+    color: blue;
+}
+
+a[href^='https'][href$='.com']{
+    color: rgb(0, 255, 110);
+}

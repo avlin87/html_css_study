@@ -1,0 +1,58 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10px;
+    height: 200vh;
+}
+
+.boxes {
+    margin-top: 1rem;
+    border: 3px solid lightgray;
+    position: relative;
+}
+
+.box {
+    width: 5rem;
+    height: 5rem;
+}
+
+.box-one {
+    background-color: gold;
+}
+
+.box-two {
+    background-color: tomato;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+}
+
+.box-two-two {
+    background-color: green;
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: 9;
+}
+
+.box-three{
+    background-color: dodgerblue;
+}
+
+.box-five {
+    background-color: blueviolet;
+    position: fixed;
+    top: 0;
+    z-index: 99;
+}
+
+a {
+    position: fixed;
+    top: 0;
+    z-index: 999
+}

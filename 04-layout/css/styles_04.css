@@ -1,0 +1,26 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+body{
+    width: 300%;
+}
+
+.box {
+    font-size: 20px;
+
+    /* 50% of the width of the view parent*/
+    /* width: 50vw ;  */
+
+    /* 10 x font size of the current element */
+    /* width: 10em ;  */
+
+    /* 10 x font size of the root element */
+    width: 10rem ; 
+
+    height: 100vh; /* 100 % of view port height*/
+    background-color: gold;
+    border-top: 3px solid orange;
+} 

@@ -1,0 +1,13 @@
+a:visited,
+a:link {
+    color: dodgerblue;
+}
+
+a:hover, 
+a:focus {
+    color: deeppink;
+}
+
+body {
+    margin: 10px;
+}

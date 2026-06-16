@@ -1,0 +1,14 @@
+*, 
+*::before, 
+*::after {
+    box-sizing: border-box;
+}
+
+.box {
+    width: 150px;
+    height: 150px;
+    border: 3px solid orange;
+    overflow: hidden, auto;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
