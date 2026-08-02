@@ -1,4 +1,6 @@
-@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libertinus+Serif:ital@1&display=swap');
 
 html {
     font-size: 62.5%;
@@ -9,7 +11,9 @@ html {
 
 body {
     margin: 10px;
-    font-family: system-ui, 
+    font-size: 1.6rem;
+    font-family: "Roboto",
+        system-ui, 
         -apple-system, 
         BlinkMacSystemFont, 
         'Segoe UI', 
@@ -27,8 +31,15 @@ body {
     margin: auto;
 }
 
-img {
+.image-crop {
+    aspect-ratio: 24 / 7;
+    overflow: hidden;
+    margin: 0 0 4rem 0;
+}
+
+.image-crop img {
     width: 100%;
+    display: block;
 }
 
 h1, 
@@ -38,8 +49,42 @@ h4,
 h5,
 h6 {
     font-family: "Lato", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    margin: 3rem 0 1.5rem 0;
 }
 
 h1 {
-    margin: 3rem 0 1rem;
+    font-size: clamp(2.4rem, 2.75vw, 3.05rem);
+}
+
+h2 {
+    font-size: clamp(2rem, 2.25vw, 2.5rem);
+}
+
+h3 {
+    font-size: clamp(1.7rem, 1.8vw, 2rem);
+}
+
+h4 {
+    font-size: clamp(1.6rem, 1.5vw, 1.8rem);
+}
+
+h5 {
+    font-size: clamp(1.5rem, 1.25vw, 1.7rem);
+}
+
+h6 {
+    font-size: clamp(1.4rem, 1vw, 1.6rem);
+}
+
+p {
+    font-family: "Libertinus Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 125%;
+}
+
+ul {
+    padding-left: 2.5rem;
 }
