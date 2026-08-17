@@ -1,0 +1,22 @@
+body {
+    background: url("../images/bg-paper@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+    margin: 10px;
+}
+
+.ufo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.meal {
+    width: 400px;
+}
+
+.meal:hover {
+    filter: grayscale(70%);
+}

@@ -1,0 +1,41 @@
+/* .meal{
+    width: 100vw;
+} */
+
+body {
+    background: url("../images/bg-paper@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+}
+
+.sprite-0 {
+    background: url('../images/sprite.webp') -0px -0px;
+    width: 100px;
+    height: 100px;
+}
+
+.sprite-1 {
+    background: url('../images/sprite.webp') -100px -0px;
+    width: 100px;
+    height: 100px;
+}
+
+.sprite-2 {
+    background: url('../images/sprite.webp') -0px -100px;
+    width: 100px;
+    height: 100px;
+}
+
+.sprite-3 {
+    background: url('../images/sprite.webp') -100px -100px;
+    width: 100px;
+    height: 100px;
+}
+
+.sprite-4 {
+    background: url('../images/sprite.webp') -200px -100px;
+    width: 100px;
+    height: 100px;
+}

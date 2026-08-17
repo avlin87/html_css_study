@@ -1,0 +1,11 @@
+/* .meal{
+    width: 100vw;
+} */
+
+body {
+    background: url("../images/bg-paper@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+}

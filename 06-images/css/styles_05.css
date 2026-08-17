@@ -1,0 +1,17 @@
+body {
+    background: url("../images/bg-paper@2x.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300vh;
+}
+
+.ufo {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+}
+
+.meal {
+    clip-path: polygon(0% 20%, 60% 20%, 60% 0%, 100% 50%, 60% 100%, 60% 80%, 0% 80%);
+}
